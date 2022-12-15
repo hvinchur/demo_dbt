@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: proclivity
+    description: "A sample databse provided"
+    database: proclivity
+    schema: Output
+    tables:
+      - name: my_first_dbt_model
+        description: "Details"
